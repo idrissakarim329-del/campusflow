@@ -1,0 +1,7 @@
+{
+  "name": "campusflow-server",
+  "private": true,
+  "scripts": {
+    "start": "npx json-server@0.17.4 db.json --port 3000 --host 0.0.0.0 --middlewares ./middleware.js"
+  }
+}

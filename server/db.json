@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nom": "Idrissa",
+      "email": "etudiant@campus.bf"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "intitule": "Programmation mobile",
+      "enseignant": "Dr Ouédraogo"
+    },
+    {
+      "id": 2,
+      "intitule": "Entrepôts de données",
+      "enseignant": "Dr Sawadogo"
+    },
+    {
+      "id": 3,
+      "intitule": "Intelligence artificielle",
+      "enseignant": "Dr Kaboré"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "titre": "Rendre le TP de synthèse CampusFlow",
+      "echeance": "2026-11-22T23:59:00.000",
+      "terminee": false,
+      "description": "Dépôt GitHub à envoyer par e-mail à l'enseignant.",
+      "courseId": 1
+    },
+    {
+      "id": 2,
+      "titre": "Livrer le projet d'entrepôt de données",
+      "echeance": "2026-11-28T18:00:00.000",
+      "terminee": true,
+      "description": "Schéma en étoile, ETL et rapport.",
+      "courseId": 2
+    },
+    {
+      "id": 3,
+      "titre": "Avancer le projet intégrateur IA",
+      "echeance": "2026-12-05T12:00:00.000",
+      "terminee": false,
+      "courseId": 3
+    },
+    {
+      "id": 4,
+      "titre": "Installer Flutter et lancer le premier écran",
+      "echeance": "2026-11-10T09:00:00.000",
+      "terminee": true,
+      "courseId": 1
+    },
+    {
+      "titre": "Maiga",
+      "echeance": "2026-11-21T00:00:00.000",
+      "terminee": false,
+      "description": "idrissa",
+      "id": 5
+    }
+  ]
+}
