@@ -1,0 +1,23 @@
+# Dépendances Node (serveur json-server)
+node_modules/
+
+# Dossiers générés par Flutter / Dart
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock.bak
+
+# Éditeurs
+.idea/
+.vscode/
+*.iml
+
+# Fichiers temporaires et secrets
+*.log
+.env
+
+# Système
+.DS_Store
+Thumbs.db
